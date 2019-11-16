@@ -8,7 +8,7 @@ int main()
 	printf("Inserica un numero con la virgola: ");
 	scanf("%lf", &d_user);
 
-	i_user = d_user;
+	i_user = (int)d_user;
 
 	
 
