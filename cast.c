@@ -6,14 +6,12 @@ int main()
 	int i_user;
 
 	printf("Inserica un numero con la virgola: ");
-	scanf("%lf", &d_user);
+	scanf("%f", &d_user);
 
-	i_user = (int)d_user;
+	i_user = (double)d_user
 
-	
-
-	printf("Il numero intero è d%", &i_user);
-	printf("Il numero decimale è f%", &d_user);
+	printf("Il numero intero è d% \n", i_user);
+	printf("Il numero decimale è lf% \n", d_user);
 
 	return 0;
 }
