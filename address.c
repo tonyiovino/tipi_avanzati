@@ -4,7 +4,7 @@ int main()
 {
 	float number = 7.87;
 
-	float *adress_number;
+	float *address_number;
 
 	address_number = &number;
 
