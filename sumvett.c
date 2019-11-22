@@ -4,7 +4,7 @@ int main()
 {
 	int intero[3];
 	int somma;
-	int media;
+	float media;
 
 	printf("Inserisca tre interi.\n");
 	printf("1): ");
@@ -20,7 +20,7 @@ int main()
 	media = somma / 3;
 
 	printf("La somma è %d\n", somma);
-	printf("La media è %d\n", media);
+	printf("La media è %f\n", media);
 
 	return 0;
 }
