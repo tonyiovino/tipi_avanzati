@@ -17,7 +17,7 @@ int main()
 	scanf("%d", &intero[2]);
 
 	somma = intero[0] + intero[1] + intero[2];
-	media = somma / 3;
+	media = somma / 3.0;
 
 	printf("La somma è %d\n", somma);
 	printf("La media è %f\n", media);
