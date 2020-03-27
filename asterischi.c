@@ -9,7 +9,7 @@ int main()
 	intervallo.tv_nsec = 700 * 1000 * 1000;
 
 	puts("*");
-	nanosleep(&intervallo, NULL); //A cosa serve "NULL"?
+	nanosleep(&intervallo, NULL);
 
 	puts("*");
 	nanosleep(&intervallo, NULL);
